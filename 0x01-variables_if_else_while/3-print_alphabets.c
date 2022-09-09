@@ -2,7 +2,7 @@
 /**
  * main - Entry point
  *
- * Return - must be 0 for success
+ * Return: must be 0 for success
  */
 int main(void)
 {
