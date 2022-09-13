@@ -6,6 +6,7 @@
  * Return: must equal 0 for success
  */
 int main(void)
+
 {
 	_putchar('_');
 	_putchar('p');
