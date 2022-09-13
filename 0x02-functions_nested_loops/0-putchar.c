@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- * _putchar - writes the character c to stdout
- *
- * Return: must equal 0 for success
- */
+*main - Entry point
+*
+*Return: 0 nothing, return void
+*/
+
 int main(void)
 
 {
