@@ -1,1 +1,1 @@
-#include "putchar.c"
+#include "_putchar"
