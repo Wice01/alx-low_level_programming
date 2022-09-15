@@ -3,7 +3,7 @@
 /**
  * mul - multiplies 2 nums
  * @a: first param
- * @b: second param
+ * @a: first param
  * Return: something
  */
 
