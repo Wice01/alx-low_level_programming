@@ -2,7 +2,7 @@
 
 /**
  * main - Entry point
- * @argv[]: array of aurument passed
+ * @argv: array of aurument passed
  * @argc: number of aurument passed
  * Return: must be 0 for success
  */
