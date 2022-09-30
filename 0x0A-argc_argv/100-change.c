@@ -22,7 +22,7 @@ int main(int argc, char *argv[])
 		return (1);
 	}
 	total = atoi(argv[1]); /*Covert str to int*/
-	
+
 	if (total <= 0)
 	{
 		printf("0\n");
