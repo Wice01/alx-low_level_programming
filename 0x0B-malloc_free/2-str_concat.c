@@ -1,23 +1,17 @@
 #include <stdlib.h>
 #include "main.h"
 
-int _strlen(char *s1, char *s2)
+int _strlen(char *s)
 {
-	unsigned int i, j, size_strings;
+	unsigned int i;
 
 	i = 0;
-	while (s1[i] != '\0')
+	while (s[i] != '\0')
 	{
 		i++;
 	}
-	j = 0;
-	while (s2[j] != '\0')
-	{
-		j++;
-	}
-	size_strings = i + j;
 
-	return (size_strings);
+	return (i);
 }
 
 /**
@@ -41,9 +35,9 @@ char *str_concat(char *s1, char *s2)
 	{
 		s2 = "";
 	}
-	size = _strlen(s1, s2) + 1;                                                                                                                
+	size = (_strlen(s1) + _strlen(s2)+ 1);                                                                                                                
 	pointer = (char *) malloc(size * sizeof(char));
-	if (pointer )
+	if (pointer == 0)
 	{
 		return (NULL);
 	}
