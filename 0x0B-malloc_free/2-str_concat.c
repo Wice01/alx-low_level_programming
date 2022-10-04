@@ -3,6 +3,8 @@
 
 /**
  * _strlen - function that caculate length of character
+ * @s: string
+ * Return: must be integer for success
  */
 
 int _strlen(char *s)
@@ -39,7 +41,7 @@ char *str_concat(char *s1, char *s2)
 	{
 		s2 = "";
 	}
-	size = (_strlen(s1) + _strlen(s2)+ 1);                                     
+	size = (_strlen(s1) + _strlen(s2) + 1);
 	pointer = (char *) malloc(size * sizeof(char));
 	if (pointer == 0)
 	{
@@ -48,6 +50,7 @@ char *str_concat(char *s1, char *s2)
 
 	for (i = 0; *(s1 + i) != '\0'; i++)
 		*(pointer + i) = *(s1 + i);
+
 	for (j = 0; *(s2 + j) != '\0'; j++)
 	{
 		*(pointer + i) = *(s2 + j);
