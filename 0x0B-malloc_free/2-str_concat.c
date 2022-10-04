@@ -1,6 +1,10 @@
 #include <stdlib.h>
 #include "main.h"
 
+/**
+ * _strlen - function that caculate length of character
+ */
+
 int _strlen(char *s)
 {
 	unsigned int i;
@@ -26,7 +30,7 @@ char *str_concat(char *s1, char *s2)
 	char *pointer;
 	unsigned int size;
 	unsigned int i, j;
-	
+
 	if (s1 == NULL)
 	{
 		s1 = "";
@@ -35,7 +39,7 @@ char *str_concat(char *s1, char *s2)
 	{
 		s2 = "";
 	}
-	size = (_strlen(s1) + _strlen(s2)+ 1);                                                                                                                
+	size = (_strlen(s1) + _strlen(s2)+ 1);                                     
 	pointer = (char *) malloc(size * sizeof(char));
 	if (pointer == 0)
 	{
