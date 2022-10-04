@@ -32,17 +32,20 @@ char *str_concat(char *s1, char *s2)
 	char *pointer;
 	unsigned int size;
 	int len, j;
-
-	size = _strlen(s1, s2) + 1;
-	pointer = (char *) malloc(size * sizeof(char));
 	
 	if (s1 == NULL)
 	{
-		s1 = "\0";
+		s1 = "";
 	}
 	if (s2 == NULL)
 	{
-		s2 = "\0";
+		s2 = "";
+	}
+	size = _strlen(s1, s2) + 1;                                                                                                                
+	pointer = (char *) malloc(size * sizeof(char));
+	if (pointer )
+	{
+		return (NULL);
 	}
 	len = 0;
 	while (s1[len] == '\0')
