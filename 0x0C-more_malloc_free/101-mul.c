@@ -2,21 +2,6 @@
 #include <stdlib.h>
 
 /**
- * _atoi_digit - convert a char to integer.
- * @x: character to convert.
- * Return: integer.
- **/
-
-int _atoi_digit(char x)
-{
-	unsigned int res;
-
-	if (x <= '9' && x >= '0')
-		res = x - '0';
-	return (res);
-}
-
-/**
  * _isNumber - Define if a string is a number.
  * @argv: Pointer to string.
  * Return: success (0).
@@ -68,6 +53,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 void *mul_array(char *a1, int len1, char a2, char *a3, int lena)
 {
 	int mul = 0, i, k;
+
 	k = lena;
 
 	for (i = len1 - 1; i >= 0 ; i--)
