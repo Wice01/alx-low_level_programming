@@ -1,7 +1,10 @@
 #include "main.h"
 #include <stdlib.h>
-
-
+#include "number.c"
+#include "atoi-digit.c"
+#include "calloc.c"
+#include "print-arry.c"
+#include "_putchar.c"
 
 /**
  * mul_array - multiply two arrays.
