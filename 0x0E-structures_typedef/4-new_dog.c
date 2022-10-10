@@ -3,16 +3,6 @@
 #include <stdio.h>
 
 /**
- * init_dog - initialize a variable of type struct dog.
- * @d: pointer to struct type dog
- * Return: No.
- */
-
-#include "dog.h"
-#include <stdlib.h>
-#include <stdio.h>
-
-/**
  * new_dog - new dog
  * @name: name's dog
  * @age: age's dog
