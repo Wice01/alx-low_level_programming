@@ -3,14 +3,14 @@
 #include <stdio.h>
 
 /**
- * init_dog - initialize a variable of type struct dog.
+ * print_dog - initialize a variable of type struct dog.
  * @d: pointer to struct type dog
  * Return: No.
  */
 
 void print_dog(struct dog *d)
 {
-    if (d)
+	if (d)
 	{
 		if (d->name != NULL)
 		{
