@@ -2,8 +2,8 @@
 
 /**
  * _strcpy - copies string
- * @dest: poiter
- * @src: poiter
+ * @dest: pointer
+ * @src: pointer
  * Return: char
  */
 
