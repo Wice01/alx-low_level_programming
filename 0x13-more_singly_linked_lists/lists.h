@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-
-0;276;0c
-=======
 #ifndef _LISTS_
 #define _LISTS_
 
@@ -53,4 +49,3 @@ size_t free_listint_safe(listint_t **h);
 listint_t *find_listint_loop(listint_t *head);
 
 #endif
->>>>>>> 3c67e6d70a417e49380b908b54301736d282a5f9
